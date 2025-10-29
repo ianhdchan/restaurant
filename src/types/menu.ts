@@ -1,7 +1,6 @@
 export type Menu = {
   id: string;
   img: string;
-  name: string;
   dsc: string;
   rate: number;
 };
