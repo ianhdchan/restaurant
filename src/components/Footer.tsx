@@ -101,7 +101,7 @@ export function Footer() {
         {/* Menu */}
         <div className="flex flex-col space-y-4 items-center w-full text-sm text-zinc-400">
           <Link
-            to="#"
+            to="/order"
             className="mt-4 inline-block rounded-md bg-orange-500 px-3 py-2 text-sm font-medium text-white hover:bg-orange-400 transition"
           >
             Order Online!
