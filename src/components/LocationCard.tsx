@@ -43,12 +43,12 @@ export function LocationCard({ loc }: { loc: Location }) {
               <div className="flex flex-col justify-center items-center gap-2">
                 <p className="font-medium">Phone:</p>
                 <p>
-                  <a
+                  <Link
                     className="text-orange-600 hover:underline"
-                    href={`tel:${loc.phone}`}
+                    to={`tel:${loc.phone}`}
                   >
                     {loc.phone}
-                  </a>
+                  </Link>
                 </p>
                 <p className="font-medium">Hours:</p>
                 <p>

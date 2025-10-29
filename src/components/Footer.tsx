@@ -52,15 +52,15 @@ export function Footer() {
         {/* Contact */}
         <div className="flex flex-col justify-center items-center text-sm text-zinc-400 space-y-2">
           <h3 className="text-sm font-semibold text-white">Contact</h3>
-          <a href="tel:+1234567890" className="hover:text-white transition">
+          <Link to="tel:+1234567890" className="hover:text-white transition">
             +1 (123) 456-7890
-          </a>
-          <a
-            href="mailto:hello@dnabbq.example"
+          </Link>
+          <Link
+            to="mailto:hello@dnabbq.example"
             className="hover:text-white transition"
           >
             hello@dnabbq.example
-          </a>
+          </Link>
           <address className="not-italic mt-2">
             <span className="block">Vancouver, BC</span>
             <span className="block">Canada</span>
