@@ -20,7 +20,7 @@ export function Order() {
         </button>
       </div>
       <div className="w-full py-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight py-20 text-white bg-black">
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight py-40 text-white bg-black">
           In the meantime, please check out our menu!
         </h1>
         <Link
