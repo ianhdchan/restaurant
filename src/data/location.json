@@ -1,0 +1,37 @@
+[
+  {
+    "id": "gastown",
+    "name": "DNA BBQ — Gastown",
+    "address": "305 Water St, Vancouver, BC V6B 1B6",
+    "phone": "(604) 123-1234",
+    "hours": "Mon-Fri: 11:00 AM – 9:00 PM"
+  },
+  {
+    "id": "yaletown",
+    "name": "DNA BBQ — Yaletown",
+    "address": "747 Hamilton St, Vancouver, BC V6B 2S7 (Yaletown)",
+    "phone": "(604) 123-1235",
+    "hours": "Mon-Fri: 9:00 AM – 10:00 PM, Sat-Sun: 11:00 AM - 8:00 PM"
+  },
+  {
+    "id": "coal-harbour",
+    "name": "DNA BBQ — Coal Harbour",
+    "address": "999 Canada Pl, Vancouver, BC V6C 3E1 (Canada Place)",
+    "phone": "(604) 123-1236",
+    "hours": "Daily: 10:00 AM – 9:00 PM"
+  },
+  {
+    "id": "robson",
+    "name": "DNA BBQ — Robson",
+    "address": "1200 Robson St, Vancouver, BC V6E 1A4 (Robson St)",
+    "phone": "(604) 123-1237",
+    "hours": "Mon–Sat: 11:00 AM – 10:00 PM, Sun: 12:00 PM – 8:00 PM"
+  },
+  {
+    "id": "granville-island",
+    "name": "DNA BBQ — Granville Island",
+    "address": "1661 Johnston St, Vancouver, BC V6H 3R9 (Granville Island)",
+    "phone": "(604) 123-1238",
+    "hours": "Daily: 10:00 AM – 8:00 PM"
+  }
+]
