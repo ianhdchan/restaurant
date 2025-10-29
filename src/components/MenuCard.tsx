@@ -1,5 +1,5 @@
 import type { MenuCardProp } from "@/types/menu";
-import { Card, CardContent, CardDescription, CardTitle } from "./ui/card";
+import { Card, CardContent, CardDescription } from "./ui/card";
 
 export function MenuCard({ menu }: MenuCardProp) {
   return (
@@ -10,13 +10,12 @@ export function MenuCard({ menu }: MenuCardProp) {
             <img
               className="object-cover w-full h-full rounded-2xl"
               src={menu.img}
-              alt={menu.name}
+              alt={menu.dsc}
             ></img>
           </div>
-          <CardTitle className="text-base md:text-lg mt-3 text-primary">
-            {menu.name}
-          </CardTitle>
-          <CardDescription>{menu.dsc}</CardDescription>
+          <CardDescription className="text-base md:text-lg mt-3 text-primary">
+            {menu.dsc}
+          </CardDescription>
         </CardContent>
       </Card>
     </div>
